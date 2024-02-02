@@ -11,8 +11,5 @@ public class AppInitializer {
 
         ChuBean bean = ctx.getBean(ChuBean.class);
         System.out.println(bean);
-
-
-
     }
 }
