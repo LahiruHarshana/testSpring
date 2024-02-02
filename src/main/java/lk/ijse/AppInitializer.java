@@ -8,7 +8,6 @@ public class AppInitializer {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         ctx.register(AppConfig.class);
         ctx.refresh();
-
         ChuBean bean = ctx.getBean(ChuBean.class);
         System.out.println(bean);
     }
